@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(137, 43, 226, 0.796);
+  color: rgba(252, 252, 252, 0.869);
+}
+
+ul {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 500px;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+h1 {
+  display: inline;
+}
+
+p {
+  font-size: 25px;
+}
+
+#navbar {
+  background-color: black;
+}
+
+#profile-picture {
+  max-width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline;
+}
+
+.about-me {
+  text-align: center;
+  background-color: rgba(94, 91, 91, 0.761);
+}
+
+.contact-me {
+  background-color: black;
+}
+
+#img-1 {
+  max-width: 300px;
+}
