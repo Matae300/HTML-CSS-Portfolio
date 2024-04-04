@@ -1,41 +1,77 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>Portfolio Website</title>
 </head>
- <body>
 
-  <div id="navbar">
-    <nav>
-      <img id="profile-picture" src="./images/Minas Gerais.jpg">
-      <h1>Matheus Almeida</h1>
-      <ul>
-        <li><a href="default.asp">About Me</a></li>
-        <li><a href="news.asp">Work</a></li>
-        <li><a href="contact.asp">Contact Me</a></li>
-      </ul>
-    </nav>
-  </div>
+<body>
+    <header id="navbar">
+        <nav>
+            <ul>
+                <li><a href="#about-me-section">About Me</a></li>
+                <li><a href="#work-section">Work</a></li>
+                <li><a href="#contact-me-section">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <div class="about-me">
-    <h2>About Me</h2>
-    <p>My name is Matheus Almeida. I am from Connecticut, and my family comes from brazil. I am a huge film buff and I enjoy watching combat sports such as MMA and Muay Thai. I also really like lifting weights at the gym.</p>
-  </div>  
+    <section id="about-me-section">
+        <h1>Matheus Almeida</h1>
+        <img id="profile-picture" src="./images/Minas Gerais.jpg" alt="Profile Picture">
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>My name is Matheus Almeida. I am from Connecticut, and my family comes from Brazil. I am a huge film buff and I enjoy watching combat sports such as MMA and Muay Thai. I also really like lifting weights at the gym.</p>
+        </div>
+    </section>
 
-  <div class="work">
-    <h2>Work</h2>
-    <img id="img-1" src="./images/Screenshot_4-3-2024_131129_127.0.0.1.jpeg">
-    <img id ="img-1" src="./images/Screenshot_4-3-2024_13202_127.0.0.1.jpeg">
-  </div>
-  
+    <section id="work-section">
+        <h2>Work</h2>
+        <div class="work">
+            <a href="https://matae300.github.io/MovieMingle-Project/">
+                <div class="work-item">
+                    <img class="app-image" src="./images/Screenshot_4-3-2024_131129_127.0.0.1.jpeg" alt="Application 1">
+                    <p>MovieMingle-Project</p>
+                </div>
+            </a>
+            <a href="https://matae300.github.io/Module-01-challenge/Develop/assets/index.html">
+                <div class="work-item">
+                    <img class="app-image" src="./images/Screenshot_4-3-2024_13202_127.0.0.1.jpeg" alt="Application 2">
+                    <p>Project 1</p>
+                </div>
+            </a>
+            <a href="https://matae300.github.io/challenge-6/Develop/index.html">
+                <div class="work-item">
+                    <img class="app-image" src="./images/Screenshot_3-4-2024_221313_matae300.github.io.jpeg" alt="Application 2">
+                    <p>Weather Forecast Project</p>
+                </div>
+            </a>
+            <a href="https://matae300.github.io/challenge-4/">
+                <div class="work-item">
+                    <img class="app-image" src="./images/Screenshot_3-4-2024_221545_matae300.github.io.jpeg" alt="Application 2">
+                    <p>JavaScript Test</p>
+                </div>
+            </a>
+            <a href="https://movies-friends-85c9074d5005.herokuapp.com/">
+                <div class="work-item">
+                    <img class="app-image" src="./images/Screenshot_3-4-2024_221836_movies-friends-85c9074d5005.herokuapp.com.jpeg" alt="Application 2">
+                    <p>Movies With Friends Project</p>
+                </div>
+            </a>
+        </div>
+    </section>
 
-  <div class="contact-me">
-    <h2>Contact Me</h2>
-    <p>wassaytae@gmail.com</p>
-  </div>
+    <section id="contact-me-section">
+        <h2>Contact Me</h2>
+        <div class="contact-me">
+            <p>Email: wassaytae@gmail.com</p>
+        </div>
+    </section>
 
+    <script src="./script.js"></script>
+</body>
 
- </body>
 </html>
