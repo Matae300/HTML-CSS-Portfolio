@@ -12,6 +12,8 @@ Work section with titled images of the developer's applications.
 Larger image size for the developer's first application.
 Links to deployed applications for detailed exploration.
 
+![GitHub Logo](/Screenshot_19-4-2024_17257_127.0.0.1)
+
 ## Installation
 
 N/A
