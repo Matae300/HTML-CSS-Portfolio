@@ -27,5 +27,8 @@ The portfolio website is built using the following technologies:
 HTML
 CSS
 
+## Link to deployed page
+https://matae300.github.io/HTML-CSS-Portfolio/
+
 ## Credits
 Matheus Almeida
